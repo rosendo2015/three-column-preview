@@ -50,12 +50,14 @@ button {
   border: 0;
   border-radius: 9999px;
   background: var(--Very-light-gray);
+  border: 2px solid var(--Very-light-gray);
   cursor: pointer;
+  transition: 0.7s;
 }
 button:hover {
   background: transparent;
   color: var(--Very-light-gray);
-  border: 1px solid var(--Very-light-gray);
+  border: 2px solid var(--Very-light-gray);
 }
 #app {
  

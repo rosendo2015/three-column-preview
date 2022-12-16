@@ -14,18 +14,21 @@
 }
 body {
   font-size: 1.6rem;
+  margin: 0 auto;
+  min-width: 100vw;
 }
 main {
-  padding: 1rem;
+  margin: 0 auto;  
+  padding: 1rem 1rem;
+  width: fit-content;
 }
 img {
-  width: 50px;
+  width: 5rem;
 }
 h1 {
   color: var(--Very-light-gray);
-
   font-size: 3rem;
-  margin: 20px 0;
+  margin: 2rem 0;
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   font-weight: 700;
@@ -55,10 +58,13 @@ button:hover {
   border: 1px solid var(--Very-light-gray);
 }
 #app {
+ 
+  padding: 3rem 1rem;
   margin: 0 auto;
-  width: 26rem;
+  width: 100%;
 }
 .card {
+  max-width: 27rem;
   padding: 4rem;
   color: var(--Transparent-white-paragraphs);
 }
@@ -103,20 +109,23 @@ button:hover {
 
 @media (min-width: 600px) {
   body {
-    margin: 0 auto;
+    
   }
   main {
-    padding: 6rem 30rem;
+    margin: 0 auto;    
+    padding: 10rem 1rem;
+    width: fit-content;
   }
   img {
-    width: 60px;
+    width: 6rem;
   }
   #app {
+   
     width: 100%;
     display: flex;
   }
   .card {
-    max-width: 30rem;
+    max-width: 25rem;
   }
   .sedans {
     border-radius: 8px 0 0 8px;
